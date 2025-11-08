@@ -1,6 +1,6 @@
 # Privacy Policy for Advocate LLM
 
-**Last Updated:** November 8, 2024
+**Last Updated:** November 8, 2025
 
 ## Introduction
 

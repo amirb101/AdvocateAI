@@ -1,6 +1,6 @@
 # Terms of Service for Advocate LLM
 
-**Last Updated:** November 8, 2024
+**Last Updated:** November 8, 2025
 
 ## Agreement to Terms
 
