@@ -70,6 +70,17 @@ zip -r advocate-llm.zip . \
   -x "*.db"
 ```
 
+## 🔗 Production Info
+
+**Backend URL:** `https://advocateai-production.up.railway.app`
+
+**Update Extension:**
+- Chrome → Extensions → Options
+- Backend URL: `https://advocateai-production.up.railway.app`
+- Provider: DeepSeek, Model: DeepSeek Chat
+
+**Railway Variables:** See `backend/DEPLOY.md` for full list
+
 ---
 
 **You're 95% there!** Just update legal docs and submit to Chrome Web Store! 🚀
