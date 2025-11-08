@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advocate LLM</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧠 Advocate LLM</h1>
+      <p class="subtitle">Surface opposing viewpoints in news articles</p>
+    </header>
+    
+    <div class="status-section">
+      <div class="quota-display">
+        <span class="quota-label">Remaining today:</span>
+        <span class="quota-value" id="quotaDisplay">-</span>
+      </div>
+      <div class="model-display">
+        <span class="model-label">Model:</span>
+        <span class="model-value" id="modelDisplay">-</span>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button id="findPointsBtn" class="btn-primary">
+        Find 5 Polarising Points
+      </button>
+      <div id="statusMessage" class="status-message"></div>
+    </div>
+    
+    <div class="footer">
+      <a href="options.html" target="_blank" class="link">Settings</a>
+      <span class="separator">•</span>
+      <a href="#" id="upgradeLink" class="link">Upgrade</a>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
+

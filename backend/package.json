@@ -1,0 +1,31 @@
+{
+  "name": "advocate-llm-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Advocate LLM Chrome Extension",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": ["llm", "chrome-extension", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2",
+    "node-cache": "^5.1.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.1",
+    "express-validator": "^7.0.1",
+    "winston": "^3.11.0",
+    "crypto": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
