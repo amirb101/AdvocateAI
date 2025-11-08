@@ -1,6 +1,78 @@
 # 🚀 Pre-Launch Checklist
 
-## 🔴 Critical (Must Have)
+## ✅ Already Complete
+
+- [x] Backend deployed: `https://advocateai-production.up.railway.app`
+- [x] Extension working locally
+- [x] Security measures in place
+- [x] Rate limiting active
+- [x] API keys protected
+
+## 🔴 Critical (Must Do)
+
+### 1. Update Legal Docs (5 min)
+- [ ] Edit `PRIVACY_POLICY.md` - add your email
+- [ ] Edit `TERMS_OF_SERVICE.md` - add your email
+- [ ] Host them (GitHub Pages or include in extension)
+
+### 2. Chrome Web Store (30 min)
+- [ ] Create developer account ($5): https://chrome.google.com/webstore/devconsole
+- [ ] Create extension ZIP (exclude backend, node_modules, .md files)
+- [ ] Fill out listing (`CHROME_STORE_LISTING.md`)
+- [ ] Add screenshots
+- [ ] Submit for review
+
+### 3. Final Testing (10 min)
+- [ ] Test extension with production backend
+- [ ] Test on 3-5 different news sites
+- [ ] Verify quotes highlight correctly
+- [ ] Test tooltips work
+
+## 🔒 Security Status
+
+**Current:** ✅ Secure enough for launch
+- API keys in environment variables
+- Rate limiting (5/day)
+- Input validation
+- Security headers
+- CORS configured
+- Error handling secure
+
+**Post-launch improvements:**
+- User authentication
+- API key rotation
+- Monitoring/alerting
+- PostgreSQL upgrade
+
+## ⏱️ Time to Launch
+
+**~45 minutes total:**
+- Legal docs: 5 min
+- Store listing: 30 min
+- Testing: 10 min
+
+## 📋 Quick Commands
+
+```bash
+# Test backend
+curl https://advocateai-production.up.railway.app/api/v1/health
+
+# Create extension ZIP
+zip -r advocate-llm.zip . \
+  -x "*.git*" \
+  -x "node_modules/*" \
+  -x "backend/*" \
+  -x "*.md" \
+  -x ".env*" \
+  -x "*.log" \
+  -x "data/*" \
+  -x "logs/*" \
+  -x "*.db"
+```
+
+---
+
+**You're 95% there!** Just update legal docs and submit to Chrome Web Store! 🚀
 
 ### Backend
 - [ ] **Deploy backend to production**
