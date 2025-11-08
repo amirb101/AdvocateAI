@@ -1,0 +1,10 @@
+# Railway Configuration
+
+This file tells Railway to use the backend directory.
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+start = "npm start"
+
