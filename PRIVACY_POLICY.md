@@ -1,6 +1,6 @@
 # Privacy Policy for Advocate LLM
 
-**Last Updated:** [Date]
+**Last Updated:** November 8, 2024
 
 ## Introduction
 
@@ -72,7 +72,7 @@ We may update this Privacy Policy. Changes will be posted here with an updated "
 
 ## Contact Us
 
-If you have questions about this Privacy Policy, please contact us at [your-email@example.com]
+If you have questions about this Privacy Policy, please contact us at amirbattye@gmail.com
 
 ---
 

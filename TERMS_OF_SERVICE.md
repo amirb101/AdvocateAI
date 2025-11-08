@@ -1,6 +1,6 @@
 # Terms of Service for Advocate LLM
 
-**Last Updated:** [Date]
+**Last Updated:** November 8, 2024
 
 ## Agreement to Terms
 
@@ -57,7 +57,7 @@ We may update these Terms. Continued use constitutes acceptance of changes.
 
 ## Contact
 
-Questions? Contact us at [your-email@example.com]
+Questions? Contact us at amirbattye@gmail.com
 
 ---
 
