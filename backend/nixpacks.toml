@@ -1,10 +1,13 @@
-# Railway Configuration
+# Railway Configuration for Backend
 
-This file tells Railway to use the backend directory.
+[phases.setup]
+nixPkgs = ["nodejs_20"]
 
-[build]
-builder = "nixpacks"
+[phases.install]
+cmds = ["npm install"]
 
-[deploy]
-start = "npm start"
+[phases.build]
+cmds = ["echo 'Build complete'"]
 
+[start]
+cmd = "npm start"
